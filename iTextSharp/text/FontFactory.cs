@@ -110,6 +110,10 @@ namespace iTextSharp.text {
         /// <summary> This is a possible value of a base 14 type 1 font </summary>
         public const string ZAPFDINGBATS = BaseFont.ZAPFDINGBATS;
         
+        ///
+        public const string MICR = BaseFont.MICR;
+        
+        
         private static FontFactoryImp fontImp = new FontFactoryImp();
 
         /// <summary> This is the default encoding to use. </summary>
